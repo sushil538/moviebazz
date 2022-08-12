@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import os
+from pickle import TRUE
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,7 +27,7 @@ SECRET_KEY = 'django-insecure--*++bs!(lb#+t)it9@3njv%rt67i%72ia&_4i$l$qoox5m9i%$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','moviebazz.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
